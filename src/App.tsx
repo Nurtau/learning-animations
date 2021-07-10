@@ -91,6 +91,7 @@ const boxVariants = {
 		transition: {
 			when: "beforeChildren",
 			staggerChildren: 0.5,
+			ease: "easeOut"
 		},
 	},
 };
@@ -103,6 +104,9 @@ const innerBoxVariants = {
 		backgroundColor: "yellow",
 		rotate: 270,
 		borderRadius: "50%",
+		transition: {
+			ease: "easeOut"
+		}
 	},
 };
 
